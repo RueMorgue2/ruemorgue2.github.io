@@ -40,7 +40,7 @@ body {
 
   // No Scroll - Lock body scrolling.
   &.no-scroll {
-    height: 100vh;
+    height: 20vh;
     overflow-y: hidden;
 
     .site-header .container {
