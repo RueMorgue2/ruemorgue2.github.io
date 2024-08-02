@@ -1,4 +1,4 @@
-  /**
+/**
  *
  *  Header Style
  *
@@ -10,7 +10,7 @@ header.site-header {
   position: relative;
   width: 100%;
   height: 100vh;
-  max-height: 1080px;
+  //max-height: 1080px;
   z-index: 1;
 
   // Blog Header
@@ -36,7 +36,7 @@ header.site-header {
     position: absolute;
     width: 100%;
     height: 100vh;
-    max-height: 1080px;
+  //  max-height: 1080px;
     top: 0;
     left: 0;
   }
@@ -44,7 +44,7 @@ header.site-header {
   .container {
     position: relative;
     height: 100vh;
-    max-height: 1080px;
+    //max-height: 1080px;
   }
 
   // Site Navigation Bar
@@ -82,7 +82,7 @@ header.site-header {
         ul {
           li {
             float: left;
-            margin-right: 10px;
+            margin-right: 30px;
 
             &:last-child {
               margin-right: 0;
@@ -109,7 +109,7 @@ header.site-header {
 
             a {
               display: block;
-              color: #000;
+              color: $white;
               padding: 10px 0;
 
               &:hover,
@@ -131,7 +131,7 @@ header.site-header {
     height: calc(100vh - 250px);
     max-height: calc(1080px - 250px);
     z-index: 2;
-    color: #000;
+    color: $white;
 
     .heading-content {
       width: 100%;
@@ -167,7 +167,7 @@ header.site-header {
       position: relative;
       font-size: 4rem;
       line-height: 4rem;
-      color: #000;
+      color: $white;
       width: 64px;
       height: 64px;
 
