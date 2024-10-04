@@ -1,21 +1,41 @@
-<!DOCTYPE html >
-<html lang="{{ site.lang }}">
+---
+layout: compress
+---
 
-  {% include head.html %}
+<!DOCTYPE html>
+<html>
+{% include head.html %}
 
-  <body>
+<body>
+  {% include navbar.html %}
+  {% include showcase.html %}
+  {% include about.html %}
+  {% include contact.html %}
+  <!--Footer begins here-->
+  {% include footer.html %}
+</body>
+<script>
+  var navItems = document.getElementsByClassName('navbar-item');
+  var heroes = document.getElementsByClassName('hero');
+  const viewOffset = 200; 
 
-    <!-- Page Loader -->
-    <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
-    <div id="snipcart" data-api-key="YWQxNTQ3ZTEtZTRkOS00ZWQ4LWE2MjctNmJmZGU2MDAyMmU2NjM3NzYxMjEwMDE3NTg4OTI1" hidden></div>
-    {% include header.html %}
+  window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
+    var position = window.pageYOffset;
 
-    {{ content }}
+    for (var i = 0; i < navItems.length; i++) {
+      navItems[i].classList.remove('is-active');
+    }
 
-    {% include footer.html %}
+    for (var i = 0; i < heroes.length; i++) {
+        var sectionTop = heroes[i].offsetTop-viewOffset;
+        var sectionBottom = heroes[i].offsetTop + heroes[i].offsetHeight-viewOffset;
 
-    {% include scripts.html %}
-
-  </body>
+        if (scroll >= sectionTop && scroll < sectionBottom) {
+          navItems[i+1].classList.add('is-active');
+      }
+    }
+  });
+</script>
 
 </html>

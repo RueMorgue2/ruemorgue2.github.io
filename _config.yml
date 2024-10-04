@@ -1,330 +1,97 @@
-#
-# Sera - OnePage Jekyll Theme
-# Configuration File
-#
+# WhatATheme
+markdown: kramdown
 
-# Information for compile
-exclude: ["Gemfile", "README.md"]
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
 
-# Sass configuration
+# Title of the Site
+title: The Royal Flash
+# Description of the Site
+description: Authentic Metal from the Heart of Germany
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/Zollverein.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+# heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/Zollverein.jpg
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: thedevslot@gmail.com
+facebook_username: thedevslot
+twitter_username: thedevslot
+instagram_username: thedevslot
+linkedin_username: thedevslot
+github_username:  thedevslot
+youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: The Royal Flash
+# URL for the Image of the Author
+author-image: /assets/images/RoyalFlash.jfif
+# 60 Words About the Author
+author-about: We are the german Metal Band "The Royal Flash" sitting in the heart of Germany, the Ruhrpott. We make a mixture of Metal and Rock Music with Influences of several Genres. Although fun is one of our main motivations, we strive for the stars and are always searching for live gigs to present our material. Most of our stuff is self written, but additional - as a suprise - we are adding some Cover-/Tribute-Pieces. Stay tune and follow us - we want to "Come Around" - Check our Material!
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/thedevslot
+
+# SASS
 sass:
-  sass_dir: _scss
+  sass_dir: _sass
+  style: compressed
 
-# Information for deploy
-baseurl: ""
-
-# the base hostname & protocol for your site
-url: "http://localhost:4000"
-
-####################################
-######   Optional Features    ######
-####################################
-smooth-scroll: false
-
-####################################
-###########   Plugins    ###########
-####################################
+# Build settings
 plugins:
-  - jekyll-archives
+  - jekyll-admin
+  - jekyll-feed
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: "archive"
-  permalinks:
-    category: "/category/:name/"
-    tag: "/tag/:name/"
+# Permalink
+permalink: "blog/:title"
 
-#######################################################
-#######################################################
-###############   HEADER INFORMATIONS   ###############
-#######################################################
-#######################################################
+# Compress
+compress_html:
+  clippings: all
 
-# This is your site title
-title: The Autumn Almanacs
-# Website language
-lang: en-US
-# Header Title
-header-title: Neu in Herne!
-# Header Tagline
-headter-tagline: 
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
 
-####################################
-######   CTA Header Buttons   ######
-####################################
-
-# Focus Buttons
-header-focus-button:
-  title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
-
-# Secondary Buttons
-header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/ohkimur
-
-#
-# This is your email adress, contact from send here all emails from contact section
-# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
-# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
-#
-email: stephan_jacobs@gmx.de
-
-collections: 
-  - products
-
-# Offer Banner Link
-# Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
-
-####################################
-######  Global Social Links   ######
-####################################
-youtube: "https://www.youtube.com/channel/UCskLJPKM6gXXK6xtWi5fqtA"
-pinterest: "#"
-facebook: "https://de-de.facebook.com/theautumnalmanacs/"
-twitter: "#"
-google-plus: "#"
-vimeo: "#"
-
-
-#########################
-######   Widgets   ######
-#########################
-
-#
-# About Blog Author Widget
-#
-about-widget:
-  author-avatar: Studio_7.jpg
-  author-name: Stephan
-  author-tagline: Blog Author
-  author-info: Writes as web desginer current band information.
-
-
-# Google Map JS api
-key-api: YOUR_GOOGLE_MAP_API_KEY
-map-text: Sera Google Map
-map-lat: 44.4267674
-map-lng: 26.102538399999958
-
-# Enter your Mailchimp User ID and Campaign ID
-# @TODO: Add in a link for where to find these
-mailchimp:
-  user-id: RueMorgue666
-  list-id: 15684726
-
-####
-#
-# Hi you now use Sera - OnePage Jekyll Theme created by Ohkimur
-#
-# Below are each section from the website in order from top to bottom
-# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
-#
-####
-
-#####################################
-#############   About   #############
-#####################################
-about-title: Über
-about-description: Wir sind Ansprechpartner in Herne und Umgebung, wenn es um Haupt- und Abgasuntersuchungen oder Änderungsabnahmen sowie weitere Servicedienstleistungen rund um zwei, drei, und vier Räder geht.
-#####################################
-#############  Features  ############
-#####################################
-features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
-
-#
-# Features
-#
-features:
-  # Feature
-  - title: Clean & Unique Design
-    description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-    icon: pe-7s-vector
-
-  # Feature
-  - title: Professional Support
-    description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-    icon: pe-7s-help2
-
-  # Feature
-  - title: Pixel Perfect
-    description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-    icon: pe-7s-airplay
-
-#####################################
-############  Portfolio  ############
-#####################################
-portfolio-title: Gallery
-portfolio-description: We try to update the gallery section as soon we are getting new pics.
-
-#
-# Portfolio Grid
-#
-portfolio-categories:
-portfolio:
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: []
-    image: Logo_Gross.PNG
-    url: "#"
-    text: "Bandshooting 2020"
-
-
-
-#####################################
-##########  Core Features  ##########
-#####################################
-core-title: Core Features
-core-description: We create something unique with the following mix
-
-#
-# Core Features Left
-#
-core-features-left:
-  # Feature
-  - name: Hauptuntersuchung (HU)
-    description: Hauptuntersuchung (HU) inkl. Abgasuntersuchung gem. § 29 StVZO
-    icon: pe-7s-world
-
-  # Feature
-  - name: Änderungsabnahmen gem. § 19 (3) StVZO
-    description: psychedelic, flower power hippie atmosphere
-    icon: pe-7s-leaf
-
-  # Feature
-  - name: Die amtlichen Schadstoffplaketten
-    description: Optimized recordings with guest musicians
-    icon: pe-7s-album
-
-#
-# Core Features Right
-#
-core-features-right:
-  # Feature
-  - name: Technischer Dienst
-    description: Technischer Dienst
-    icon: pe-7s-smile
-
-  # Feature
-  - name: Sachverständigenleistung
-    description: unforgettable live performance with many suprises
-    icon: pe-7s-speaker
-
-  # Feature
-  - name: Gasprüfung GSP/GAP/GWP
-    description: trying to create something magic
-    icon: pe-7s-magic-wand
-
-  # Feature
-  - name: Sicherheitsprüfung gemäß § 29 StVZO
-    description: plug it in and enjoy it
-    icon: pe-7s-plug
-
-#####################################
-########### Testimonials ############
-#####################################
-testimonials-title: Reviews
-testimonials-description: Here you find some reviews of our first LP.
-
-#
-# Testimonials
-#
-testimonials:
-  # Client
-  - name: UNDERDOG Fanzine
-    url: https://www.underdog-fanzine.de/2018/05/30/the-autumn-almanacs-all-work-and-no-play-makes-jack-a-dull-boy
-    url-text: Review
-    avatar: avatar-01.jpg
-    cite: Time to dream peaceful, relax and cele  brate your knowledge!
-    logo-img: underdog_logo.jpg
-
-  # Client
-  - name: Rocktimes
-    url: https://www.rocktimes.info/the-autumn-almanacs-all-work-and-no-play-makes-jack-a-dull-boy-cd-review
-    url-text: Review
-    avatar: avatar-02.jpg
-    cite: Remnants of the beat era mixed with psychedelic, flower power hippie atmosphere, sunshine pop and the first echoes of rock music and, thanks to the wind instruments, a touch of rhythm & blues.
-    logo-img: rocktimes_logo.jfif
-
-  # Client
-  - name: Powermetal.de
-    url: https://powermetal.de/review/review-Autumn_Almanacs__The/All_Work_And_No_Play_Makes_Jack_A_Dull_Boy,34935.html
-    url-text: Review
-    avatar: avatar-03.jpg
-    cite: If a band can unite friends of many classic genres without sounding artificial or implausible, that means something - and the Cologne-based members managed to do that on "All Work And No Play Makes Jack A Dull Boy".
-    logo-img: powermetal_logo.png
-
-
-#####################################
-############# Our Blog ##############
-#####################################
-blog-title: Our Blog
-blog-description: Get the current news from us.
-
-#####################################
-############### Team ################
-#####################################
-team-title: Meet The Band
-team-description: You can contact us also personally.
-
-
-
-#####################################
-############  Audio      ############
-#####################################
-audio-title: Audio
-
-#####################################
-########## Pricing Tables ###########
-#####################################
-pricing-title: Pricing Table
-pricing-description: Buy our LPs (Shipping Costs for EU included) and check our songs on Spotify, iTunes, Apple Music, Youtube, Deezer, etc.
-
-#
-# Plan Personal
-#
-plan-personal-price: $99
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-url: "#"
-
-#
-# Plan Business
-#
-plan-business-price: $499
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-url: "#"
-
-#
-# Plan Ultimate
-#
-plan-ultimate-price: $999
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-url: "#"
-
-#####################################
-############   Contact   ############
-#####################################
-contact-title: Kontaktiere mich
-contact-description: Falls Du mich direkt erreichen möchtest oder Fragen hast, fülle bitte das Formular aus
-
-#####################################
-#############   Footer   ############
-#####################################
-footer-description: Copyright 2023 Marcus Brand. Designed by Stephan Jacobs. All right reserved
-footer-copyright-text: Marcus Brand
-footer-copyright-url: https:/www.xn--gt-prfung-brand-0vbd.de/
-footer-copyright-year: 2023
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
