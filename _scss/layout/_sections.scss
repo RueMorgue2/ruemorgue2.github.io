@@ -6,10 +6,17 @@
  *
  **/
 
+
 section.site-section {
   padding: 100px 0;
-  background: $section-bg;
+  //background: $section-bg;
+  background: url("/images/background.jpg") center no-repeat #fff;
   // z-index: 1;
+
+ 
+header.outer{
+  display: flex;
+}
 
   // Section Header
   header.section-header {

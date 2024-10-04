@@ -47,7 +47,7 @@ title: The Autumn Almanacs
 # Website language
 lang: en-US
 # Header Title
-header-title: Neu in Herne!
+header-title: 
 # Header Tagline
 headter-tagline: 
 
@@ -129,7 +129,7 @@ mailchimp:
 #############   About   #############
 #####################################
 about-title: Über
-about-description: Wir sind Ansprechpartner in Herne und Umgebung, wenn es um Haupt- und Abgasuntersuchungen oder Änderungsabnahmen sowie weitere Servicedienstleistungen rund um zwei, drei, und vier Räder geht.
+about-description: Wir sind Ihr Ansprechpartner in Bochum und Umgebung, wenn es um Haupt- und Abgasuntersuchungen oder Änderungsabnahmen sowie weitere Service- und Gutachterdienstleistungen rund um zwei, drei und vier Räder geht.
 #####################################
 #############  Features  ############
 #####################################
@@ -170,7 +170,7 @@ portfolio:
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: []
-    image: Logo_Gross.PNG
+    image: Logo_Gross.png
     url: "#"
     text: "Bandshooting 2020"
 
@@ -318,13 +318,13 @@ plan-ultimate-url: "#"
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Kontaktiere mich
-contact-description: Falls Du mich direkt erreichen möchtest oder Fragen hast, fülle bitte das Formular aus
+contact-title: Kontaktiere uns
+contact-description: Falls Du uns etwas mitteilen möchtest, schicke uns eine Nachricht!
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Copyright 2023 Marcus Brand. Designed by Stephan Jacobs. All right reserved
-footer-copyright-text: Marcus Brand
-footer-copyright-url: https:/www.xn--gt-prfung-brand-0vbd.de/
-footer-copyright-year: 2023
+footer-description: Copyright 2024 The Royal Flash. Designed by Stephan Jacobs. All right reserved
+footer-copyright-text: The Royal Flash
+footer-copyright-url: https://www.autumnalmanacs.com
+footer-copyright-year: 2024

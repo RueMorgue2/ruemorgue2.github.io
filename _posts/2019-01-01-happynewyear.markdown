@@ -8,4 +8,4 @@ tags: [Live]
 image: NewYear.jpg
 ---
 
-Happy new year to all of you! Be prepa#da1f3d for coming live events.
+Happy new year to all of you! Be prepared for coming live events.

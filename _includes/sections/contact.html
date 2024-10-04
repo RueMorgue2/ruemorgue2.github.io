@@ -3,7 +3,7 @@
 
   <!-- Parallax Contact Image -->
   <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
-    <img src="{{ site.baseurl }}/images/Hintergrund3.PNG"  style="opacity: 0.5" />
+    <img src="{{ site.baseurl }}/images/background_lp.jpg"  style="opacity: 0.5" />
   </div>
 
   <div class="container">
@@ -29,7 +29,7 @@
 
       <!-- Contact Form -->
       <div class="col-md-8 col-md-push-2">
-        <form id="sera-contact-form" action="https://formspree.io/f/xvonlwgw" method="POST"
+        <form id="sera-contact-form" action="https://formspree.io/f/mknyggoo" method="POST"
           class="contact-form container-fluid"  style="color: black">
           <div class="col-md-6" style="color: black" >
             <input style="color: black !important" type="text" name="name" placeholder="Name" />
@@ -47,7 +47,7 @@
             <textarea style="color: black" name="message" rows="8" cols="40" placeholder="Message" ></textarea>
           </div>
           <div class="col-md-12 form-action">
-            <button type="submit" class="send-button" style="color: black" >Sende eine Nachricht</button>
+            <button type="submit" class="send-button" style="color: black" >Send Message</button>
           </div>
         </form>
       </div>
@@ -71,7 +71,7 @@
       const lng = {{ site.map-lng }};
       
       const location = { lat, lng };
-      // The map, cente#da1f3d at Uluru
+      // The map, centered at Uluru
       const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
         center: location,
