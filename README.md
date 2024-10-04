@@ -6,7 +6,7 @@
 ![WhatATheme](assets/images/meta.jpg)
  
 # Features :sparkles:
-* Free and Easy setup
+* Free and Easy setup test
 * No Coding Required
 * Compatible with [Github Pages](https://pages.github.com/)
 * Responsive and Blogging Ready
