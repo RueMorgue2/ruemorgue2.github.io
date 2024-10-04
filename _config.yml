@@ -22,7 +22,7 @@ favicon-url:
 heroimage: /assets/images/Zollverein.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
+email: info@the-royal-flash.de
 facebook_username: thedevslot
 twitter_username: thedevslot
 instagram_username: thedevslot
@@ -47,7 +47,7 @@ author-image: /assets/images/RoyalFlash.jfif
 # 60 Words About the Author
 author-about: We are the german Metal Band "The Royal Flash" sitting in the heart of Germany, the Ruhrpott. We make a mixture of Metal and Rock Music with Influences of several Genres. Although fun is one of our main motivations, we strive for the stars and are always searching for live gigs to present our material. Most of our stuff is self written, but additional - as a suprise - we are adding some Cover-/Tribute-Pieces. Stay tune and follow us - we want to "Come Around" - Check our Material!
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://www.the-royal-flash.de
 
 # SASS
 sass:
