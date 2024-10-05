@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://www.the-royal-flash.de'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -15,7 +15,7 @@ site-image: /WhatATheme/assets/images/Zollverein.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: /WhatATheme/assets/images/Zollverein.jpg
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 # heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
@@ -23,19 +23,19 @@ heroimage: /assets/images/Zollverein.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.thedevslot
 email: info@the-royal-flash.de
-facebook_username: 
-twitter_username: 
-instagram_username: 
-linkedin_username: 
+facebook_username: 61565879413514
+# twitter_username: 
+instagram_username: the_royal_flash
+# linkedin_username: 
 github_username:  RueMorgue2
 youtube_channel_id: UCg3tXPBqIA7hK8Dpt0iZHzw
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+# google-analytics: UA-163806439-1
 
 # Disqus
 disqus-shortname: 
