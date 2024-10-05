@@ -21,14 +21,14 @@ favicon-url:
 # heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 heroimage: /assets/images/Zollverein.jpg
 # Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
+# If you don't want to use any icon, you can leave them blank.thedevslot
 email: info@the-royal-flash.de
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+facebook_username: 
+twitter_username: 
+instagram_username: 
+linkedin_username: 
+github_username:  RueMorgue2
+youtube_channel_id: UCg3tXPBqIA7hK8Dpt0iZHzw
 reddit_username: /
 behance_username: /
 dribbble_username: /
@@ -38,7 +38,7 @@ spotify_username: /
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: 
 
 # Name of the Author
 author-name: The Royal Flash
