@@ -11,7 +11,7 @@ title: The Royal Flash
 # Description of the Site
 description: Authentic Metal from the Heart of Germany
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/Zollverein.jpg
+site-image: /WhatATheme/assets/images/Logo2.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
@@ -19,7 +19,7 @@ favicon-url: /assets/images/NewHomepage.jpg
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 # heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-heroimage: /assets/images/Zollverein.jpg
+heroimage: /assets/images/Logo2.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.thedevslot
 email: info@the-royal-flash.de
