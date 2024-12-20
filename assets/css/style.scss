@@ -73,11 +73,11 @@ a.navbar-item.is-active {
     
         &::before {
           
-            background-image: url({{site.heroimage}});
+            background-image: url({{"/assets/images/TRF-FB-Title-Mobile.jpg"}});
             background-position: center;
             background-repeat: no-repeat;
          //   background-size: contain
-         //   background-size: 100% 100%;
+            background-size: 100% 100%;
         //     background-attachment: fixed;
             top: 5px;
             right: 5px;
