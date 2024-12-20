@@ -36,7 +36,7 @@ a.navbar-item.is-active {
     border-color: grey;
 }
 
- 
+@media (min-width: 768px)  {
 #hero {
     background: rgb(0, 0, 0);
     background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
@@ -50,7 +50,7 @@ a.navbar-item.is-active {
         background-position: center;
         background-repeat: no-repeat;
      //   background-size: contain
-     background-size: 100% 100%;
+        background-size: 100% 100%;
     //     background-attachment: fixed;
         top: 5px;
         right: 5px;
@@ -61,6 +61,35 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+}
+
+@media (max-width: 767px)  {
+    #hero {
+        background: rgb(0, 0, 0);
+        background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    
+        &::before {
+          
+            background-image: url({{site.heroimage}});
+            background-position: center;
+            background-repeat: no-repeat;
+         //   background-size: contain
+         //   background-size: 100% 100%;
+        //     background-attachment: fixed;
+            top: 5px;
+            right: 5px;
+            bottom: 5px;
+            left: 5px;
+            position: absolute;
+            opacity: 1.00;
+            content: "";
+        }
+    }
+    }
+
 .title {
     margin: auto 0.75rem!important;
 }
