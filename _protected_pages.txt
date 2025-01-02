@@ -1,1 +1,2 @@
 example.html examplepassword
+example2.html examplepassword
