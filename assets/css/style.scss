@@ -2,6 +2,12 @@
 ---
 @import "main_style.scss";
 
+/* responsive videos */
+.video {
+    justify-content: space-between;
+    display: flex;
+}
+
 #navbar {
     opacity: 0.95;
 }
@@ -36,6 +42,13 @@ a.navbar-item.is-active {
     border-color: grey;
 }
 
+.chevron-down {
+    position:absolute;
+    top:100vh;
+    transform:translateY(-100%);
+    width:100%;
+}
+
 @media (min-width: 768px)  {
 #hero {
     background: rgb(0, 0, 0);
@@ -62,6 +75,7 @@ a.navbar-item.is-active {
     }
 }
 }
+
 
 @media (max-width: 767px)  {
     #hero {
