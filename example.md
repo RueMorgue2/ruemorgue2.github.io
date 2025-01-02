@@ -9,18 +9,18 @@ layout: page
 With “The Royal Flash” the audience experiences an unforgettable show – gripping music, unique melodies, powerful riffs, polyphonic singing and an impressive stage presence. Anyone who is there will experience the electrifying moment when the royal lightning conquers the stage and marks the beginning of an exciting musical journey.
 
 # Band Pictures
-* [Picture 1](assets/media/TRF_Foto1.JPG)
-* [Picture 2](assets/media/TRF_Foto2.JPG)
+* [Picture 1](assets/Media/TRF_Foto1.JPG)
+* [Picture 2](assets/Media/TRF_Foto2.JPG)
 
 # Band Logo
-* [Original](assets/media/TRF-Logo.png)
-* [Black](assets/media/TRF-Logo-schwarz.png)
-* [White](assets/media/TRF-Logo-weiss.png)
+* [Original](assets/Media/TRF-Logo.png)
+* [Black](assets/Media/TRF-Logo-schwarz.png)
+* [White](assets/Media/TRF-Logo-weiss.png)
 
 # Stageplan
-*  [Stageplan](assets/media/The%20Royal%20Flash%20-%20Stageplan.pdf)
+*  [Stageplan](assets/Media/The%20Royal%20Flash%20-%20Stageplan.pdf)
 
 # Audio-Files
-*  [Sweetest Glaze (Live Version)](assets/media/The%20Royal%20Flash%20-%20Sweetest%20Glaze%20(Live%20Version).mp3)
-*  [I Am Here (Live Version)](assets/media/The%20Royal%20Flash%20-%20I%20Am%20Here%20(Live%20Version).mp3)
-*  [Don't Need You (Live Version)](assets/media/The%20Royal%20Flash%20-%20Don't%20Need%20You%20(Live%20Version).mp3)
+*  [Sweetest Glaze (Live Version)](assets/Media/The%20Royal%20Flash%20-%20Sweetest%20Glaze%20(Live%20Version).mp3)
+*  [I Am Here (Live Version)](assets/Media/The%20Royal%20Flash%20-%20I%20Am%20Here%20(Live%20Version).mp3)
+*  [Don't Need You (Live Version)](assets/Media/The%20Royal%20Flash%20-%20Don't%20Need%20You%20(Live%20Version).mp3)
