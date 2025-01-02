@@ -25,20 +25,13 @@
                 </a>
             </div>
 
-            <!--Link Section
+
             <div class="column has-text-white">
-                <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 %}
-                {% unless sitepage.url == '/'  limit: 2 %}
+                <h3>Press (secured)</h3>
                 <li>
-                    <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
+                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/example.html">Download Material</a>
                 </li>
-                {% endunless %}
-                {% endfor %}
-                <li>
-                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
-                </li>
-            </div>-->
+            </div>
 
             <!--Blog-post Section-->
             <div class="column has-text-white">

@@ -1,6 +1,26 @@
-# Example page
-An example page. Note that you can see [this document](https://github.com/evanbaldonado/github-pages-jekyll-password-protection/blob/main/example.md) unencrypted in the repository.
+---
+title: Download Section
+layout: page
+---
 
-However, the [published page](https://evanbaldonado.github.io/github-pages-jekyll-password-protection/example.html) is password-protected (password: `examplepassword`).
+# Band Info
+“The Royal Flash” is a 4-piece, female-fronted metal band that combines classic heavy metal with influences from power metal, thrash and rock. The band is based in the heart of the Ruhr area and works with passion and dedication on its material in order to conquer the stages. Each of the members brings many years of experience, which they combine with a great joy of playing.
+ 
+With “The Royal Flash” the audience experiences an unforgettable show – gripping music, unique melodies, powerful riffs, polyphonic singing and an impressive stage presence. Anyone who is there will experience the electrifying moment when the royal lightning conquers the stage and marks the beginning of an exciting musical journey.
 
-You can configure a list of password-protected pages in [_protected_pages.txt](https://github.com/evanbaldonado/github-pages-jekyll-password-protection/blob/main/_protected_pages.txt).
+# Band Pictures
+* [Picture 1](assets/media/TRF_Foto1.JPG)
+* [Picture 2](assets/media/TRF_Foto2.JPG)
+
+# Band Logo
+* [Original](assets/media/TRF-Logo.png)
+* [Black](assets/media/TRF-Logo-schwarz.png)
+* [White](assets/media/TRF-Logo-weiss.png)
+
+# Stageplan
+*  [Stageplan](assets/media/The%20Royal%20Flash%20-%20Stageplan.pdf)
+
+# Audio-Files
+*  [Sweetest Glaze (Live Version)](assets/media/The%20Royal%20Flash%20-%20Sweetest%20Glaze%20(Live%20Version).mp3)
+*  [I Am Here (Live Version)](assets/media/The%20Royal%20Flash%20-%20I%20Am%20Here%20(Live%20Version).mp3)
+*  [Don't Need You (Live Version)](assets/media/The%20Royal%20Flash%20-%20Don't%20Need%20You%20(Live%20Version).mp3)
