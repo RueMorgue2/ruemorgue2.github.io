@@ -34,12 +34,12 @@ a.navbar-item.is-active {
 
     &:hover {
         background-color: rgba($color: #fff, $alpha: 0.25) !important;
-        color: grey;
+        color: lightblue;
     }
 }
 
 .navbar-link:not(.is-arrowless)::after {
-    border-color: grey;
+    border-color: lightblue;
 }
 
 .chevron-down {
@@ -128,6 +128,7 @@ a.navbar-item.is-active {
 
     .hero-body2 {
         padding: 3rem 1.5rem;
+        background-image: url(assets/images/TRF-Hintergrund-XL.jpg);
        }
 }
 
@@ -229,7 +230,7 @@ a.navbar-item.is-active {
 
         &::placeholder {
             font-weight: 500;
-            color: grey;
+            color: white;
             letter-spacing: 0.25rem;
         }
     }
@@ -272,7 +273,7 @@ a.navbar-item.is-active {
             }
 
             a {
-                color: #7a7a7a;
+                color: white;
 
                 &:hover {
                     color: white;
@@ -368,7 +369,7 @@ a.navbar-item.is-active {
             display: inline-block;
         }
         hr{
-            background-color: grey;
+            background-color: lightblue;
         }
         img, iframe {
             max-width: calc(100% - 25vw);
