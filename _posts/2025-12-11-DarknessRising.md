@@ -1,7 +1,7 @@
 ---
 title: First Live Gig in 2026
 layout: post
-post-image: /assets/images/DarknessRising.png
+post-image: /assets/images/DarknessRising.PNG
 description: First Live Gig in 2026
 tags:
 - Gig
