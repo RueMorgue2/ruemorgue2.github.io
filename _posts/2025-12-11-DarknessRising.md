@@ -1,5 +1,5 @@
 ---
-title: Recording Session
+title: First Live Gig in 2026
 layout: post
 post-image: /assets/images/DarknessRising.png
 description: First Live Gig in 2026
