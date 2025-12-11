@@ -8,6 +8,13 @@ layout: page
  
 With “The Royal Flash” the audience experiences an unforgettable show – gripping music, unique melodies, powerful riffs, polyphonic singing and an impressive stage presence. Anyone who is there will experience the electrifying moment when the royal lightning conquers the stage and marks the beginning of an exciting musical journey.
 
+--
+
+„The Royal Flash“ ist eine 4-köpfige, female-fronted Metal-Band, die klassischen Heavy Metal mit Einflüssen aus Power Metal, Thrash und Rock kombiniert. Die Band hat ihren Hauptsitz im Herzen des Ruhrgebiets und arbeitet mit Leidenschaft und Hingabe an ihrem Material, um die Bühnen zu erobern. Jeder der Mitglieder bringt viele Jahre Erfahrung mit, die sie mit einer großen Freude am Spielen vereinen.
+ 
+Mit „The Royal Flash“ erlebt das Publikum eine unvergessliche Show – packende Musik, einzigartige Melodien, kraftvolle Riffs, mehrstimmigen Gesang und eine beeindruckende Bühnenpräsenz. Wer dabei ist, erlebt den elektrisierenden Moment, wenn der königliche Blitz die Bühne erobert und den Beginn einer aufregenden musikalischen Reise markiert.
+
+
 # Band Pictures
 * [Picture 1](assets/Media/TRF_Foto1.JPG)
 * [Picture 2](assets/Media/TRF_Foto2.JPG)
