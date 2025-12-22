@@ -28,6 +28,4 @@ Mit „The Royal Flash“ erlebt das Publikum eine unvergessliche Show – packe
 *  [Stageplan](assets/Media/The%20Royal%20Flash%20-%20Stageplan.pdf)
 
 # Audio-Files
-*  [Sweetest Glaze (Live Version)](assets/Media/The%20Royal%20Flash%20-%20Sweetest%20Glaze%20(Live%20Version).mp3)
-*  [I Am Here (Live Version)](assets/Media/The%20Royal%20Flash%20-%20I%20Am%20Here%20(Live%20Version).mp3)
-*  [Don't Need You (Live Version)](assets/Media/The%20Royal%20Flash%20-%20Don't%20Need%20You%20(Live%20Version).mp3)
+*  [Fireball](assets/Media/The%20Royal%20Flash%20-%20Fireball%20(Recording%20Session).mp3)
