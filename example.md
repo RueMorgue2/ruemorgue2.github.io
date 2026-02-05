@@ -28,4 +28,5 @@ Mit „The Royal Flash“ erlebt das Publikum eine unvergessliche Show – packe
 *  [Stageplan](assets/Media/The%20Royal%20Flash%20-%20Stageplan.pdf)
 
 # Audio-Files
-*  [Fireball](assets/Media/The%20Royal%20Flash%20-%20Fireball%20(Recording%20Session).mp3)
+*  [Destiny](assets/Media/Destiny.mp3)
+*  [Destiny](assets/Media/Fireball.mp3)
