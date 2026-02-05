@@ -29,4 +29,4 @@ Mit „The Royal Flash“ erlebt das Publikum eine unvergessliche Show – packe
 
 # Audio-Files
 *  [Destiny](assets/Media/Destiny.mp3)
-*  [Destiny](assets/Media/Fireball.mp3)
+*  [Fireball](assets/Media/Fireball.mp3)
