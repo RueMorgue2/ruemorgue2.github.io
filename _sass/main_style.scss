@@ -10,7 +10,79 @@ body {
     transition: all 0.25s ease;
 }
 
+.gigs-section {
+  background: #0a0a0a;
+}
 
+.gigs-list {
+  margin-top: 40px;
+}
+
+.gig-item {
+  display: grid;
+  grid-template-columns: 100px 1fr 120px;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
+  gap: 20px;
+}
+
+.gig-date {
+  text-align: center;
+  color: #ff3860;
+  font-weight: bold;
+}
+
+.gig-date .day {
+  display: block;
+  font-size: 28px;
+}
+
+.gig-date .month {
+  display: block;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.gig-info h3 {
+  margin: 0;
+  color: white;
+}
+
+.gig-info p {
+  margin: 3px 0 0 0;
+  color: #bbb;
+}
+
+.gig-ticket {
+  text-align: right;
+}
+
+.gig-date {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff3860;
+  width: 80px;
+}
+
+.gig-date .month {
+  display: block;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.gig-info h3 {
+  color: white;
+}
+
+.gig-info p {
+  color: #bbb;
+}
+
+.gig-ticket .button:hover {
+  background: #ff3860;
+  color: white;
+}
 
 /* width */
 ::-webkit-scrollbar {
