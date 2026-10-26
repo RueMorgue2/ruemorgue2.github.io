@@ -28,5 +28,5 @@ Mit „The Royal Flash“ erlebt das Publikum eine unvergessliche Show – packe
 *  [Stageplan](assets/Media/The%20Royal%20Flash%20-%20Stageplan.pdf)
 
 # Audio-Files
-*  [Destiny](assets/Media/BlackIt.mp3)
+*  [Black It](assets/Media/BlackIt.mp3)
 *  [Fireball](assets/Media/Fireball.mp3)
